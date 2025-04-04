@@ -1,0 +1,29 @@
+GIT Commands
+
+// To initiate git
+>git init
+
+// To know the status local Repo
+>git status
+
+// To add local files to staging area
+> git add .    // . means files in current folder
+
+// To commit changes to Repo
+> git commit -m 'message'
+
+// To send files from staging area to github Repo
+>git push -u remoteName branchName
+>git push -u origin main
+
+//to list the branches
+>git branch
+
+//to create new branch
+>git branch newBranchName
+
+// to switch branche
+>git checkout existingBranchName 
+
+//to create and checkout to new branch
+>git checkout -b newBranchName
